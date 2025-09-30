@@ -18,5 +18,12 @@ header{
 }
 
 ul{
+    
+    size: 60px;
     color: whitesmoke;
+}
+
+footer{
+    text-align: center;
+    color:whitesmoke
 }
