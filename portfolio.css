@@ -1,5 +1,22 @@
 h1{
-    border-style: solid;
+    text-shadow: 4px 4px 11px;
+    color:#3b19d4 
 }
 
 
+hr{
+    color:whitesmoke
+}
+
+
+body{
+    background-color:#171320;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    color: whitesmoke;
+}
