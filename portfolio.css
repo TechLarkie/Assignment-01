@@ -60,13 +60,13 @@ footer{
     transform: translateY(-5px);/*This is actually really cool it lifts up the block when its hovered over*/
 }
 
-.GetInTouch{
+.GetInTouch{ /*This just customizes the title to better fit the asthetic of the website*/
     text-align: center;
     color: whitesmoke;
     text-shadow: 2px 3px 9px;
 }
 
-form{
+form{ /* This is the actual 'box' which houses the contact form, it has been customized to fit the websites asthetic*/
     max-width: 500px;
     margin: 0 auto;
     padding: 1rem;
@@ -74,3 +74,23 @@ form{
     border: 1px solid #ddd;
     border-radius: 8px
 }
+
+.Form-Margin{
+    margin-bottom: 1rem; /* creates space between each submission row*/
+}
+
+/*this modifies the labels which now sit above the submission field, and are bolded*/
+label{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight:bold;
+}
+
+input, textarea{ /*This code makes modifications to the actual submission area, it rounds off the corners, adjusts the margins so that they are more organized, and changes the color of the border to black so that it better stands out against the white background*/
+    width: 97%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
