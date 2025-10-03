@@ -1,35 +1,40 @@
 h1{
-    text-shadow: 4px 4px 11px;
+    text-shadow: 4px 4px 11px; /* creates a shadow effect behind the affected text */
     color:#3b19d4 
 }
 
 
 hr{
-    color:whitesmoke
+    color:whitesmoke /*changes the color of the horizontal line to better suite the color of the website*/
 }
 
 
 body{
-    background-color:#171320;
+    background-color:#171320; /*Changes the background color of the site*/
 }
 
 header{
-    text-align: center;
+    text-align: center; /*Aligns the content within the header semantic tag*/
 }
 
 ul{
     
-    size: 60px;
+    size: 60px; /*This adjusts the size of the lists being used in the navagation menu and changes the color to better suite the site background */
     color: whitesmoke;
 }
 
 footer{
-    text-align: center;
+    text-align: center; /*This ensured that the text at the bottom of the homepage which includes my contact information was also centered and had its color change */
     color:whitesmoke
 }
 
 .my-profile-photo{
-    float: left;
+    float: left; /*The changes here align my picture in the about me page in an organized way such that the picture and the text are next to each other, rather than the text being underneath the image*/
     width: 300px;
     margin-right: 1rem;
+}
+
+
+.Project-Square{
+    text-align: center; /*Aligns the text which will be insde the individual pockets*/
 }
