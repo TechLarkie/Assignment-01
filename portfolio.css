@@ -94,3 +94,23 @@ input, textarea{ /*This code makes modifications to the actual submission area, 
     font-size: 1rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adding a Button Hover effect*/
+button:hover{
+    background: lightblue; /*Changes the color of the submission button to a pleasant light blue*/
+}
