@@ -37,4 +37,26 @@ footer{
 
 .Project-Square{
     text-align: center; /*Aligns the text which will be insde the individual pockets*/
+
 }
+
+
+.Individual-Pocket{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgb(101, 15, 101);
+    /**/
+    color: whitesmoke;
+    border-radius: 50px; /*This specific attribute changes the borders of the square such that they are much more rounded, which makes them much more appealing to look at*/
+    box-shadow: 1px 5px 7px;
+    transition: background 0.3s, transform 0.3s /*This line of code actually makes the animation smooth, instead of it being robotic or otherwise clunky, it smooths out the animation for when the mouse is hovering over the block*/
+}
+
+.Individual-Pocket:hover{
+    background:indigo; /*this will change the color of the square when a mouse is hovering over it*/
+    transform: translateY(-5px);/*This is actually really cool it lifts up the block when its hovered over*/
+}
+
