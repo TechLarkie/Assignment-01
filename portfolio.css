@@ -60,3 +60,17 @@ footer{
     transform: translateY(-5px);/*This is actually really cool it lifts up the block when its hovered over*/
 }
 
+.GetInTouch{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 3px 9px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f8fafc;
+    border: 1px solid #ddd;
+    border-radius: 8px
+}
