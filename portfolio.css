@@ -34,7 +34,6 @@ footer{
     margin-right: 1rem;
 }
 
-
 .Project-Square{
     text-align: center; /*Aligns the text which will be insde the individual pockets*/
 
@@ -42,13 +41,12 @@ footer{
 
 
 .Individual-Pocket{
-    display: inline-block;
+    display: inline-table; /*Aligns the boxs together in an organized manner*/
     width: 200px;
     height: 200px;
     margin: 1rem;
-    padding: 1rem;
-    background: rgb(101, 15, 101);
-    /**/
+    padding: 2rem;
+    background: linear-gradient(to bottom, indigo,violet); /*Adds a linear gradient to the interactable squares*/
     color: whitesmoke;
     border-radius: 50px; /*This specific attribute changes the borders of the square such that they are much more rounded, which makes them much more appealing to look at*/
     box-shadow: 1px 5px 7px;
@@ -94,7 +92,11 @@ input, textarea{ /*This code makes modifications to the actual submission area, 
     font-size: 1rem;
 }
 
+video{
+    max-width: 100%;
+    border-radius: 8px;
 
+}
 
 
 
